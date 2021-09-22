@@ -1,6 +1,4 @@
-server:
-  port: 9999
- 
+
 spring:
   application:
     name: greeting-service
@@ -10,7 +8,6 @@ management:
       exposure:
         include:
         - '*'
- 
 greeting-service:
-  greeting: "Hola"    
+  greeting: "Hola"
   default-value: "Mundo"
