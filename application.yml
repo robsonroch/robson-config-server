@@ -10,7 +10,4 @@ management:
       exposure:
         include:
         - '*'
- 
-greeting-service:
-  greeting: "Hello"    
-  default-value: "Mundo"
+
