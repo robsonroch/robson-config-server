@@ -1,6 +1,9 @@
 spring:
   application:
     name: greeting-service
+  cloud:
+    config:
+      profile: prod    
 management:
   endpoints:
     web:
