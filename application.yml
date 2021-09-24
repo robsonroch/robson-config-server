@@ -3,7 +3,7 @@ spring:
     name: greeting-service
   cloud:
     config:
-      profile: prod    
+      profile: perf    
 management:
   endpoints:
     web:
